@@ -8,7 +8,7 @@ informando se o aluno foi aprovado ou reprovado.
 /* Usar arrays para armazenar as notas. */
 
 let notas = []
-let soma = notas.reduce((diariodenotas, nota) => diariodenotas + nota)
+let soma = notas.reduce((diariodenotas, nota) => diariodenotas + nota, 0)
 let media = soma / notas.length;
 
 
