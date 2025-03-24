@@ -5,7 +5,7 @@ Desenvolver uma calculadora que recebe notas de alunos e calcula a média,
 informando se o aluno foi aprovado ou reprovado. 
 */
 
-/* Usar arrays para armazenar as notas. */
+/* Usar array para armazenar as notas. */
 
 let notas = []
 let soma = notas.reduce((diariodenotas, nota) => diariodenotas + nota, 0)
