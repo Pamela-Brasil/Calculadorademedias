@@ -1,4 +1,4 @@
-main 
+
 
 /* 
 Desenvolver uma calculadora que recebe notas de alunos e calcula a média, 
@@ -22,7 +22,7 @@ Exibir a média e o status (aprovado/reprovado)
 
 
 if (media >= 6){
-    document.getElementById('Resultado').innerHTML = "Parabéns você foi aprovado!"
+    document.getElementById('Resultado').innerHTML = "Parabéns você foi aprovado!Sua média é:", media
 }else{
-    document.getElementById('Resultado').innerHTML = "Desculpe você foi reprovado!"
+    document.getElementById('Resultado').innerHTML = "Desculpe você foi reprovado! Sua média é:", media
     }
